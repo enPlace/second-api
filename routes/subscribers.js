@@ -1,5 +1,6 @@
 const express = require('express')
 const router = express.Router()
+const Subscriber = require('../models/subscriber')
 
 //Get for entire resource
 router.get('/',(req, res)=>{
